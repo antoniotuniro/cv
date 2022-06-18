@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+h1 {
+  color: #2D4059;
+  font-size: 5.62rem;
+  margin: 40px auto 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #2D4059;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 { 
+  color: #EA5455;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a { 
+  color: #EA5455;
+  font-family: 'Noto Serif', serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover { 
+  color: #ed9799;
+}
+
+p { 
+  line-height: 2;
+}
+
+hr {
+  background-color: transparent;
+  border-style: dotted none none none;
+  border-color: #F07B3F;
+  border-width: 5px;
+  margin: 100px auto;
+  width: 5%;
+}
+
+.copyright { 
+  color: #ed9799;
+  font-size: 0.75rem;
+  padding: 20px 0;
+} 
+
+.btn {
+  background: #EA5455;
+  background-image: -webkit-linear-gradient(top, #EA5455, #f77678);
+  background-image: -moz-linear-gradient(top, #EA5455, #f77678);
+  background-image: -ms-linear-gradient(top, #EA5455, #f77678);
+  background-image: -o-linear-gradient(top, #EA5455, #f77678);
+  background-image: linear-gradient(to bottom, #EA5455, #f77678);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Noto Serif', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f77678;
+  background-image: -webkit-linear-gradient(top, #f77678, #ed9799);
+  background-image: -moz-linear-gradient(top, #f77678, #ed9799);
+  background-image: -ms-linear-gradient(top, #f77678, #ed9799);
+  background-image: -o-linear-gradient(top, #f77678, #ed9799);
+  background-image: linear-gradient(to bottom, #f77678, #ed9799);
+  text-decoration: none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.profile { 
+  width: 25%;
+  margin: 0 auto;
+}
+
+.creative-img { 
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.math-img { 
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.underline { 
+  text-decoration: underline;
+}
+
+.profile-img { 
+  width: 200px;
+}
+
+.top-container { 
+  background-color: #FFD460;
+  padding-top: 100px;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #2D4059;
+  padding: 50px 0 20px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.contact-text { 
+  width: 25%;
+  margin: 30px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
